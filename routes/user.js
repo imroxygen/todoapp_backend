@@ -12,4 +12,5 @@ router.get("/logout", logout);
 
 router.get("/me", isAuthenticated, getMyProfile);
 
+
 export default router;
